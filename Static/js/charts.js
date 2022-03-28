@@ -105,12 +105,6 @@ function init() {
       }];
   
       // 9. Create the layout for the bar chart. 
-      //var barLayout = {
-      //  title: "<b>Top 10 Bacteria Cultures Found</b>"
-      //};
-      //console.log(barLayout)
-  
-  
       var barLayout = {
         title: {
         text: "<b>Top 10 Bacteria Cultures Found</b>",
@@ -147,14 +141,7 @@ function init() {
       ];
   
       // 2. Create the layout for the bubble chart.
-      // var bubbleLayout = {
-      //   title: "<b>Bacteria Cultures Per Sample</b>",
-      //   margin: { t: 0 },
-      //   hovermode: "closest",
-      //   xaxis: { title: "OTU ID" },
-      //   margin: { t: 30}, 
-      // };
-  
+      
   
       var bubbleLayout = {
         title: "<b>Bacteria Cultures Per Sample</b>",
@@ -194,9 +181,9 @@ function init() {
           bar: { color: "black" },
           steps: [
             { range: [0, 2], color: "red" },
-            { range: [2, 4], color: "orange" },
+            { range: [2, 4], color: "purple" },
             { range: [4, 6], color: "yellow" },
-            { range: [6, 8], color: "lightgreen" },
+            { range: [6, 8], color: "blue" },
             { range: [8, 10], color: "green" },
           ],
         }
